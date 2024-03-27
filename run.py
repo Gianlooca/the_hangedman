@@ -196,3 +196,35 @@ GUESSES = len(HANG_STAGE) - 1
 
 # Functions
 
+def get_acceptable_word(TEXT):
+    """
+    This function "get an acceptable word" from the constant TEXT and returns
+     it. Then the function is called into the main() function
+    """
+
+    # This eliminates all punctuation. On the first line we create a
+    # translation table which transforms all punctuation characters
+    # to None, in the second line we have the translate() method which
+    # actually removes all the punctuation from the TEXT constant, and
+    # assigns the result to a text variable
+
+    translation_table = str.maketrans("", "", string.punctuation)
+    text = TEXT.translate(translation_table)
+
+    # This transformes the text into a list of words
+
+    first_list = text.split()
+    
+    # This list comprehension removes the duplicates from our original
+    # list and the words words smaller than 4 characters, then transform
+    # the remaining ones in uppercase
+    
+    final_list = [
+        i.upper() for n, i in enumerate(first_list)
+        if i not in first_list[:n] and len(i) >= 4
+    ]
+    
+    # This chooses and returns a random word from the list of words
+    
+    word_in_game = random.choice(final_list)
+    return word_in_game
