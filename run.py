@@ -320,5 +320,30 @@ def letter_already_used(letter, guessed_letters):
     return letter in guessed_letters
 
 
+def update_guessed_letters(letter, guessed_letters, invalid_input_message):
+    """
+    This function updates the list of letters already used with the new letter
+    """
+    # This if statement verifies if the letter is not alphabetic or is longer
+    # than a character. In the input is invalid, the return keyword exits the
+    # function
+
+    if not letter.isalpha() or len(letter) != 1:
+        print(invalid_input_message)
+        return
+
+    # Check if the letter has already been used and in that case prints a
+    # message. Otherwise, the new guessed letter is appended to the
+    # guessed_letters list and displayed in the terminal
+
+    if letter in guessed_letters:
+        print("You've already used that letter.")
+    else:
+        guessed_letters.append(letter)
+        print(
+            f"Letters guessed so far: {', '.join(guessed_letters)}",
+            flush=True)
+
+
 def main():
 
