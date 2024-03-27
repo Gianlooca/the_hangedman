@@ -238,6 +238,9 @@ def menu():
     's/S' to start and 'i/I' for the instructions. The function is called 
     inside the main() function.
     """
+    
+    # ASCII art for the menu
+
     print(r"""
     ʔ^^^^^^^^^^^^^^^^^^^ʕ
     |    THE HANGMAN    |
@@ -254,8 +257,12 @@ def menu():
             "Press S to start a new game\nPress I for instructions.\n"
         ).upper()
         print(end="\n")
+
+        # If the user enters "s/S" starts a new game; if "i/I", instructions
+        # are displayed; any other character will print the "else" message
+
         if user_input == "S":
-            return True  # Start a new game
+            return True
         elif user_input == "I":
             print(
                 f"""
