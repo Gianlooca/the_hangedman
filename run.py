@@ -2,4 +2,24 @@ import random
 import string
 
 # Constants
-HANG_STAGE =
+HANG_STAGE = [
+    r"""
+        ,_______________
+       ||--------------\
+       ||              |
+       ||              |
+       ||
+       ||
+       ||
+       ||
+       ||
+       ||
+       ||
+       ||
+       ||\
+       ||\\
+       || \\
+       ||  \\
+
+        """,
+]
