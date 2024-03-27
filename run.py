@@ -308,3 +308,7 @@ def ask_user_name():
 This is not a concentration camp: no number or spaces allowed.
 Enter your name again.\n"""
             )
+
+
+def main():
+    
