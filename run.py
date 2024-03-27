@@ -247,6 +247,14 @@ def ask_user_name():
 
 
 def menu():
+    """
+    This function displays the main menu; the user can choose whether 
+    to start the game or to read the instructions on how to play. 
+    Since the function consists mainly of a while loop, it will continue 
+    running until the user starts a new game. The valid inputs are only 
+    's/S' to start and 'i/I' for the instructions. The function is called 
+    inside the main() function.
+    """
     print(r"""
     ʔ^^^^^^^^^^^^^^^^^^^ʕ
     |    THE HANGMAN    |
