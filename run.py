@@ -231,4 +231,12 @@ def get_acceptable_word(TEXT):
 
 
 def ask_user_name():
-    
+    while True:
+        username = input("Enter your name: \n")
+        if username.isalpha() and not any(char.isspace() for char in username):
+            return username
+        else:
+            print(
+                "This is not a concentration camp: no number or spaces allowed."
+                " Enter your name again.\n"
+            )
