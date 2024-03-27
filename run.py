@@ -244,3 +244,51 @@ def ask_user_name():
                 "This is not a concentration camp: no number or spaces allowed."
                 " Enter your name again.\n"
             )
+
+
+def menu():
+    print(r"""
+    ʔ^^^^^^^^^^^^^^^^^^^ʕ
+    |    THE HANGMAN    |
+    |  S. Start Game    |
+    |  I. Instructions  |
+    |___________________|
+        |   |   |   |
+        ð   ð   ð   ð
+       /|\ /|\ /|\ /|\
+       / \ / \ / \ / \
+    """)
+    while True:
+        user_input = input(
+            "Press S to start a new game\nPress I for instructions.\n"
+        ).upper()
+        print(end="\n")
+        if user_input == "S":
+            return True  # Start a new game
+        elif user_input == "I":
+            print(
+                f"""
+INSTRUCTIONS:
+
+1. You'll have to guess a random word letter by letter.
+
+2. To guess, type a letter (A LETTER) and press enter.
+
+3. If you guess correctly, the letter will be revealed in its exact position in 
+   the secret dashed word.
+
+4. If you guess incorrectly, you will lose a life and the poor Hangman will 
+   start to appear.
+
+5. You have 6 attempts to guess the correct word: head, torso, two arms and two 
+   legs.
+
+After that, you'll become an executioner!
+
+"""
+            )
+            input("Press ENTER to go back to the menu\n")
+        else:
+            print(
+                "Remember: S to start a new game, I for instruction."
+                " Please try again!\n")
