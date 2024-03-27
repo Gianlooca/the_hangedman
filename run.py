@@ -2,6 +2,7 @@ import random
 import string
 
 # Constants
+
 HANG_STAGE = [
     r"""
         ,_______________
@@ -184,3 +185,10 @@ clutch me tightly and bear me away by land and sea, through dark realms
 that no soul has seen. I feel myself on board, drawn through waters,
 hovering in clouds, sinking--sinking."
 """)
+
+# This constant is the number of "lives" for each game.
+# It is equal to the number of HANG_STAGE (which are 7) - 1, because each game
+# starts already with the first "stage" (that is the ASCII art of the empty
+# gallows)
+
+GUESSES = len(HANG_STAGE) - 1
