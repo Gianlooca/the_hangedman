@@ -192,3 +192,7 @@ hovering in clouds, sinking--sinking."
 # gallows)
 
 GUESSES = len(HANG_STAGE) - 1
+
+
+# Functions
+
