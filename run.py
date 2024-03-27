@@ -231,6 +231,11 @@ def get_acceptable_word(TEXT):
 
 
 def ask_user_name():
+    """
+    This function asks the user to input his/her name. It doesn't accept 
+    punctuation, spaces, numbers: just alphabetic letters. Then returns a
+    username variable. The function is called inside the main() function
+    """
     while True:
         username = input("Enter your name: \n")
         if username.isalpha() and not any(char.isspace() for char in username):
