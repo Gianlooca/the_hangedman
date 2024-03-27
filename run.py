@@ -228,3 +228,7 @@ def get_acceptable_word(TEXT):
     
     word_in_game = random.choice(final_list)
     return word_in_game
+
+
+def ask_user_name():
+    
