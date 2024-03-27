@@ -137,3 +137,28 @@ HANG_STAGE = [
 
         """
 ]
+
+TITLE = r"""
+     ____    ____        __________________     ____
+    _\HHH\  _\HHH\      /GGGGGGGGGGGGGGGGG/\   /NNN/_
+    \ \HHH\ \ \HHH\    /\GGGGGGGGGGGGGGGG/ /  /NNN/ /
+     \ \HHH\ \/HHHH\   \ \GGG\___________\/  /NNNNNNNNN\
+      \ \HHH\/H/\HHH\   \ \GGG\    /GGGGGG/ /NNN/¯¯\NNNN\
+       \ \HHHH/\ \HHH\   \ \GGG\__/GG/\__/ /NNN/ /¯¯\NNNN\
+        \ \HHH\ \ \HHH\__ \ \GGGGGGG/ /   /NNN/ /    \NNNN\__
+         \ \HHH\ \ \HHHHHH\\ \GGGGG/ /   /NNN/ /     /NNNNNNN|_
+          \____\  \_______\ \/_____\/    /____/       /________|
+
+                          ____         ____            ____
+  ... \     ___     \   \  ___\  \--.  \   \  \--.,-.   ___\  \--.
+    \  \--. \__\     \---\ \   \  \  \  \___\  \  \  \  \   \  \  \
+     \  \  \ \___,    \   \ \___\_ \  \, ;___\  \  \  \  \___\_ \  \
+
+
+                           |¯/¯¯¯i
+                           |/    i
+                           |     ð <(life is but a slipknot)
+                           |    /|\
+                           |    / \
+                           |
+"""
