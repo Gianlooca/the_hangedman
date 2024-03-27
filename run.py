@@ -213,32 +213,32 @@ def get_acceptable_word(TEXT):
     # This transformes the text into a list of words
 
     first_list = text.split()
-    
+
     # This list comprehension removes the duplicates from our original
     # list and the words words smaller than 4 characters, then transform
     # the remaining ones in uppercase
-    
+
     final_list = [
         i.upper() for n, i in enumerate(first_list)
         if i not in first_list[:n] and len(i) >= 4
     ]
-    
+
     # This chooses and returns a random word from the list of words
-    
+
     word_in_game = random.choice(final_list)
     return word_in_game
 
 
 def menu():
     """
-    This function displays the main menu; the user can choose whether 
-    to start the game or to read the instructions on how to play. 
-    Since the function consists mainly of a while loop, it will continue 
-    running until the user starts a new game. The valid inputs are only 
-    's/S' to start and 'i/I' for the instructions. The function is called 
+    This function displays the main menu; the user can choose whether
+    to start the game or to read the instructions on how to play.
+    Since the function consists mainly of a while loop, it will continue
+    running until the user starts a new game. The valid inputs are only
+    's/S' to start and 'i/I' for the instructions. The function is called
     inside the main() function.
     """
-    
+
     # ASCII art for the menu
 
     print(r"""
@@ -272,13 +272,13 @@ INSTRUCTIONS:
 
 2. To guess, type a letter (A LETTER) and press enter.
 
-3. If you guess correctly, the letter will be revealed in its exact position in 
+3. If you guess correctly, the letter will be revealed in its exact position in
    the secret dashed word.
 
-4. If you guess incorrectly, you will lose a life and the poor Hangman will 
+4. If you guess incorrectly, you will lose a life and the poor Hangman will
    start to appear.
 
-5. You have 6 attempts to guess the correct word: head, torso, two arms and two 
+5. You have 6 attempts to guess the correct word: head, torso, two arms and two
    legs.
 
 After that, you'll become an executioner!
@@ -294,7 +294,7 @@ After that, you'll become an executioner!
 
 def ask_user_name():
     """
-    This function asks the user to input his/her name. It doesn't accept 
+    This function asks the user to input his/her name. It doesn't accept
     punctuation, spaces, numbers: just alphabetic letters. Then returns a
     username variable. The function is called inside the main() function
     """
@@ -304,6 +304,7 @@ def ask_user_name():
             return username
         else:
             print(
-                "This is not a concentration camp: no number or spaces allowed."
-                " Enter your name again.\n"
+                f"""
+This is not a concentration camp: no number or spaces allowed.
+Enter your name again.\n"""
             )
