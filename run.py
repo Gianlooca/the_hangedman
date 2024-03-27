@@ -229,23 +229,6 @@ def get_acceptable_word(TEXT):
     return word_in_game
 
 
-def ask_user_name():
-    """
-    This function asks the user to input his/her name. It doesn't accept 
-    punctuation, spaces, numbers: just alphabetic letters. Then returns a
-    username variable. The function is called inside the main() function
-    """
-    while True:
-        username = input("Enter your name: \n")
-        if username.isalpha() and not any(char.isspace() for char in username):
-            return username
-        else:
-            print(
-                "This is not a concentration camp: no number or spaces allowed."
-                " Enter your name again.\n"
-            )
-
-
 def menu():
     """
     This function displays the main menu; the user can choose whether 
@@ -300,3 +283,20 @@ After that, you'll become an executioner!
             print(
                 "Remember: S to start a new game, I for instruction."
                 " Please try again!\n")
+
+
+def ask_user_name():
+    """
+    This function asks the user to input his/her name. It doesn't accept 
+    punctuation, spaces, numbers: just alphabetic letters. Then returns a
+    username variable. The function is called inside the main() function
+    """
+    while True:
+        username = input("Enter your name: \n")
+        if username.isalpha() and not any(char.isspace() for char in username):
+            return username
+        else:
+            print(
+                "This is not a concentration camp: no number or spaces allowed."
+                " Enter your name again.\n"
+            )
