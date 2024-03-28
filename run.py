@@ -307,21 +307,21 @@ Enter your name again.\n"""
 
 def update_guessed_letters(letter, guessed_letters):
     """
-    This function updates the list of letters already used with the new 
+    This function updates the list of letters already used with the new
     guessed letter, prints it for each round and displays two "invalid" input
     messages: one if the user tries to enter a character which is not
     alphabetical, and another one if an already guessed letter is entered
     """
 
     invalid_input_message = (
-    "Ehy, you can only guess LETTERS; one at a time, though. "
-    "Try again."
-)
+        "Ehy, you can only guess LETTERS; one at a time, though."
+        " Try again."
+    )
 
     # This if statement verifies if the letter is not alphabetic or is longer
     # than a character. In the input is invalid, the return keyword exits the
     # function
-    
+
     if not letter.isalpha() or len(letter) != 1:
         print(invalid_input_message)
         return False
@@ -335,9 +335,52 @@ def update_guessed_letters(letter, guessed_letters):
         return False
     else:
         guessed_letters.append(letter)
-        print(f"Letters guessed so far: {', '.join(guessed_letters)}", 
-        flush=True)
+        print(
+            f"Letters guessed so far: {', '.join(guessed_letters)}",
+            flush=True
+        )
         return True
 
-def main():
+def end_game(game_over, word_in_display, word_in_game, username):
+    """
+    This function manages the end of the game in its two possibilities
+    (play again or exit the game);
+    it also prints a message in case of invalid input from the user
+    """
 
+    # If the condition of game_over is True, in both cases of victory or
+    # defeat, it prints two different messages
+
+    if game_over:
+        if word_in_display == word_in_game:
+            print(
+                f"""
+Congratulations, {username}! you guessed the word and saved an innocent
+life!\n"""
+            )
+        else:
+            print(
+                f"""
+I have a bad news, {username}: you miserably lost the game and killed a man.\n
+In any case, the word was: {word_in_game}\n"""
+            )
+
+    # While loop that keeps asking the user to enter a valid input in order
+    # to start another game or exit. Any other input will cause a customized
+    #  "invalid input" message
+
+    while True:
+        play_again = input(
+            "Do you want to play again?\nPlease enter 'y' and ENTER "
+            "for yes or 'n' and ENTER for no.\n").lower()
+        if play_again == "y":
+            return True
+        elif play_again == "n":
+            print("Thanks for playing!")
+            print(TITLE)
+            return False
+        else:
+            print("Seriously? Invalid input. Please enter 'y' for yes "
+                  "or 'n' for no.")
+
+def main():
