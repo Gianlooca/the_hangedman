@@ -341,6 +341,7 @@ def update_guessed_letters(letter, guessed_letters):
         )
         return True
 
+
 def end_game(game_over, word_in_display, word_in_game, username):
     """
     This function manages the end of the game in its two possibilities
@@ -384,3 +385,66 @@ In any case, the word was: {word_in_game}\n"""
                   "or 'n' for no.")
 
 def main():
+    global GUESSES
+    # Reset GUESSES at the beginning of each game
+    GUESSES = len(HANG_STAGE) - 1
+    print(TITLE)
+    if menu():
+        word_in_game = get_acceptable_word(TEXT)
+        word_in_display = "_" * len(word_in_game)
+        game_over = False
+        username = ask_user_name()
+        print()
+        print(f"Ciao, {username}: guess the hidden word and save a life!")
+
+        # Lista per tenere traccia delle lettere già utilizzate
+
+        guessed_letters = []
+
+        while not game_over:
+            print(HANG_STAGE[7 - GUESSES - 1])  # Print the hangman ASCII art
+            print(word_in_display)
+            print()
+
+            # Call update_guessed_letters to handle input and printing of
+            #  guessed letters
+
+            guessed_letter = input(f"{username}, guess a letter: \n").upper()
+            is_valid_input = update_guessed_letters(
+                guessed_letter,
+                guessed_letters
+            )
+
+            if not is_valid_input:
+                continue  # Skip the rest of the loop if the input is invalid
+
+            # Checks if the game is not ended
+            
+            if GUESSES == 0 or word_in_display == word_in_game:
+                game_over = True
+                break
+
+            if guessed_letter in word_in_game:
+                for i in range(len(word_in_game)):
+                    if word_in_game[i] == guessed_letter:
+                        word_in_display = word_in_display[:i] + \
+                            guessed_letter + word_in_display[i + 1:]
+            else:
+                GUESSES -= 1
+
+        # Print the hangman ASCII art after each guess
+
+        print(HANG_STAGE[7 - GUESSES - 1])
+
+        # Call end_game() to handle the end-of-game logic
+        play_again = end_game(
+            game_over,
+            word_in_display,
+            word_in_game,
+            username)
+        if play_again:
+            main()  # Restart the game
+
+
+if __name__ == "__main__":
+    main()
