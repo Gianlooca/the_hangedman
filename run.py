@@ -340,7 +340,8 @@ def update_guessed_letters(letter, guessed_letters):
         return False
     else:
         guessed_letters.append(letter)
-        print(f"Letters guessed so far: {', '.join(guessed_letters)}", flush=True)
+        print(f"Letters guessed so far: {', '.join(guessed_letters)}", 
+        flush=True)
         return True
 
 def main():
