@@ -154,12 +154,11 @@ TITLE = r"""
     \  \--. \__\     \---\ \   \  \  \  \___\  \  \  \  \   \  \  \
      \  \  \ \___,    \   \ \___\_ \  \, ;___\  \  \  \  \___\_ \  \
 
-                           |¯/¯¯¯i
-                           |/    i
-                           |     ð <(life is but a slipknot)
+                           |¯/¯¯¯|
+                           |/    ð <(life is but a slipknot)
                            |    /|\
                            |    / \
-                           |
+                           |    
 """
 TEXT = (f"""
 "But my brain got more and more confused. At last I sprang out of bed to
@@ -240,16 +239,15 @@ def menu():
 
     # ASCII art for the menu
 
-    print(r"""
-    ʔ^^^^^^^^^^^^^^^^^^^ʕ
-    |    THE HANGMAN    |
-    |  S. Start Game    |
-    |  I. Instructions  |
-    |___________________|
-        |   |   |   |
-        ð   ð   ð   ð
-       /|\ /|\ /|\ /|\
-       / \ / \ / \ / \
+    print(r"""ʔ^^^^^^^^^^^^^^^^^^^ʕ
+              |    THE HANGMAN    |
+              |  S. Start Game    |
+              |  I. Instructions  |
+              |___________________|
+                  |   |   |   |
+                  ð   ð   ð   ð
+                 /|\ /|\ /|\ /|\
+                 / \ / \ / \ / \
     """)
     while True:
         user_input = input(
