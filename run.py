@@ -384,6 +384,7 @@ In any case, the word was: {word_in_game}\n"""
             print("Seriously? Invalid input. Please enter 'y' for yes "
                   "or 'n' for no.")
 
+
 def main():
     global GUESSES
     # Reset GUESSES at the beginning of each game
@@ -409,6 +410,24 @@ def main():
             # Call update_guessed_letters to handle input and printing of
             #  guessed letters
 
+            # guessed_letter = input(f"{username}, guess a letter: \n").upper()
+
+            if GUESSES == 0 or word_in_display == word_in_game:
+                print('game over')
+                game_over = True
+                break
+
+            #is_valid_input = update_guessed_letters(
+                #guessed_letter,
+                #guessed_letters
+            #)
+
+            #if not is_valid_input:
+                #continue  # Skip the rest of the loop if the input is invalid
+
+            # Call update_guessed_letters to handle input and printing of
+            #  guessed letters
+
             guessed_letter = input(f"{username}, guess a letter: \n").upper()
             is_valid_input = update_guessed_letters(
                 guessed_letter,
@@ -419,10 +438,11 @@ def main():
                 continue  # Skip the rest of the loop if the input is invalid
 
             # Checks if the game is not ended
-            
-            if GUESSES == 0 or word_in_display == word_in_game:
-                game_over = True
-                break
+
+            #if GUESSES == 0 or word_in_display == word_in_game:
+                #print('game over')
+                #game_over = True
+                #break
 
             if guessed_letter in word_in_game:
                 for i in range(len(word_in_game)):
