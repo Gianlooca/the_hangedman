@@ -252,7 +252,8 @@ def menu():
     """)
     while True:
         user_input = input(
-            "Press S to start a new game\nPress I for instructions.\n"
+            "Press S and ENTER to start a new game\n"
+            "Press I and ENTER for instructions.\n"
         ).upper()
         print(end="\n")
 
@@ -360,7 +361,7 @@ life!\n"""
         else:
             print(
                 f"""
-I have a bad news, {username}: you miserably lost the game and killed a man.\n
+I have bad news, {username}: you miserably lost the game and killed a man.\n
 In any case, the word was: {word_in_game}\n"""
             )
 
