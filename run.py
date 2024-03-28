@@ -310,17 +310,26 @@ Enter your name again.\n"""
             )
 
 
-def update_guessed_letters(letter, guessed_letters, invalid_input_message):
+def update_guessed_letters(letter, guessed_letters):
     """
-    This function updates the list of letters already used with the new letter
+    This function updates the list of letters already used with the new 
+    guessed letter, prints it for each round and displays two "invalid" input
+    messages: one if the user tries to enter a character which is not
+    alphabetical, and another one if an already guessed letter is entered
     """
+
+    invalid_input_message = (
+    "Ehy, you can only guess LETTERS; one at a time, though. "
+    "Try again."
+)
+
     # This if statement verifies if the letter is not alphabetic or is longer
     # than a character. In the input is invalid, the return keyword exits the
     # function
-
+    
     if not letter.isalpha() or len(letter) != 1:
         print(invalid_input_message)
-        return
+        return False
 
     # Check if the letter has already been used and in that case prints a
     # message. Otherwise, the new guessed letter is appended to the
@@ -328,12 +337,11 @@ def update_guessed_letters(letter, guessed_letters, invalid_input_message):
 
     if letter in guessed_letters:
         print("You've already used that letter.")
+        return False
     else:
         guessed_letters.append(letter)
-        print(
-            f"Letters guessed so far: {', '.join(guessed_letters)}",
-            flush=True)
-
+        print(f"Letters guessed so far: {', '.join(guessed_letters)}", flush=True)
+        return True
 
 def main():
 
