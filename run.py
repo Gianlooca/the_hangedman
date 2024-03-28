@@ -310,16 +310,6 @@ Enter your name again.\n"""
             )
 
 
-def letter_already_used(letter, guessed_letters):
-    """
-    This function checks if a letter has already been used. It takes two
-    arguments: the letter (to check) and the list of already guessed letters
-    (guessed_letters). It returns a boolean value of True if the letter is
-    actually already used, otherwise False.
-    """
-    return letter in guessed_letters
-
-
 def update_guessed_letters(letter, guessed_letters, invalid_input_message):
     """
     This function updates the list of letters already used with the new letter
