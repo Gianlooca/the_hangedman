@@ -239,15 +239,16 @@ def menu():
 
     # ASCII art for the menu
 
-    print(r"""ʔ^^^^^^^^^^^^^^^^^^^ʕ
-              |    THE HANGMAN    |
-              |  S. Start Game    |
-              |  I. Instructions  |
-              |___________________|
-                  |   |   |   |
-                  ð   ð   ð   ð
-                 /|\ /|\ /|\ /|\
-                 / \ / \ / \ / \
+    print(r"""
+    ʔ^^^^^^^^^^^^^^^^^^^ʕ
+    |    THE HANGMAN    |
+    |  S. Start Game    |
+    |  I. Instructions  |
+    |___________________|
+        |   |   |   |
+        ð   ð   ð   ð
+       /|\ /|\ /|\ /|\
+       / \ / \ / \ / \
     """)
     while True:
         user_input = input(
