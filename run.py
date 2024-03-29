@@ -334,10 +334,10 @@ def update_guessed_letters(letter, guessed_letters):
         return False
     else:
         guessed_letters.append(letter)
-        print(
-            f"Letters guessed so far: {', '.join(guessed_letters)}",
-            flush=True
-        )
+        #print(
+            #f"Letters guessed so far: {', '.join(guessed_letters)}",
+            #flush=True
+        #)
         return True
 
 
@@ -403,6 +403,8 @@ def main():
 
         while not game_over:
             print(HANG_STAGE[7 - GUESSES - 1])  # Print the hangman ASCII art
+            print('YOU GUESSED: ', guessed_letters)
+
             print(word_in_display)
             print()
 
@@ -453,8 +455,7 @@ def main():
 
         # Print the hangman ASCII art after each guess
 
-        print(HANG_STAGE[7 - GUESSES - 1])
-
+        print('STAGE: ', HANG_STAGE[7 - GUESSES - 1])        
         # Call end_game() to handle the end-of-game logic
         play_again = end_game(
             game_over,
