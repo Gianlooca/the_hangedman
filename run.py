@@ -399,7 +399,7 @@ def main():
 
         while not game_over:
             print(HANG_STAGE[7 - GUESSES - 1])  # Print the hangman ASCII art
-            print('YOU GUESSED: ', guessed_letters)
+            print('LETTERS YOU GUESSED SO FAR: ', guessed_letters)
 
             print(word_in_display)
             print()
@@ -451,7 +451,7 @@ def main():
 
         # Print the hangman ASCII art after each guess
 
-        print('STAGE: ', HANG_STAGE[7 - GUESSES - 1])        
+        print(HANG_STAGE[7 - GUESSES - 1])        
         # Call end_game() to handle the end-of-game logic
         play_again = end_game(
             game_over,
