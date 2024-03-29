@@ -158,7 +158,7 @@ TITLE = r"""
                            |/    ð <(life is but a slipknot)
                            |    /|\
                            |    / \
-                           |    
+                           |
 """
 TEXT = (f"""
 "But my brain got more and more confused. At last I sprang out of bed to
