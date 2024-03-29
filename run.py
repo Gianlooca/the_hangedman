@@ -307,9 +307,9 @@ Enter your name again.\n"""
 def update_guessed_letters(letter, guessed_letters):
     """
     This function updates the list of letters already used with the new
-    guessed letter, prints it for each round and displays two "invalid" input
-    messages: one if the user tries to enter a character which is not
-    alphabetical, and another one if an already guessed letter is entered
+    guessed letter and displays an "invalid" input message: one if the user
+    tries to enter a character which is not alphabetical, and another one if
+    an already guessed letter is entered
     """
 
     invalid_input_message = (
@@ -334,10 +334,6 @@ def update_guessed_letters(letter, guessed_letters):
         return False
     else:
         guessed_letters.append(letter)
-        #print(
-            #f"Letters guessed so far: {', '.join(guessed_letters)}",
-            #flush=True
-        #)
         return True
 
 
