@@ -410,7 +410,6 @@ def main():
             # guessed_letter = input(f"{username}, guess a letter: \n").upper()
 
             if GUESSES == 0 or word_in_display == word_in_game:
-                print('game over')
                 game_over = True
                 break
 
