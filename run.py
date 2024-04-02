@@ -372,7 +372,7 @@ In any case, the word was: {word_in_game}\n"""
         if play_again == "y":
             return True
         elif play_again == "n":
-            print("Thanks for playing!")
+            print(f"\n{username}, thanks for playing!")
             print(TITLE)
             return False
         else:
