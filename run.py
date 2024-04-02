@@ -381,6 +381,18 @@ In any case, the word was: {word_in_game}\n"""
 
 
 def main():
+    """
+    This function handles the whole game (game settings, number of GUESSES -
+    this variable is global, not local to the function scope -, etc.); it 
+    prints the TITLE, it runs the menu() function, contains an empty list of
+    letters and, the most important thing, a while loop which basically is the
+    core of the game which keeps asking the user to enter a letter and,
+    depending on the guess (correct or incorrect), displays the letters inside
+    the secret dashed word or the ASCII art of the hanged man adding a new
+    'piece' of his body for each round, until the end of the game. It uses the
+    recursion to play again the game (or not) by calling the end_game()
+    function within it.
+    """
     global GUESSES
     # Reset GUESSES at the beginning of each game
     GUESSES = len(HANG_STAGE) - 1
@@ -393,13 +405,15 @@ def main():
         print()
         print(f"Ciao, {username}: guess the hidden word and save a life!")
 
-        # Lista per tenere traccia delle lettere già utilizzate
-
+        # Empty list to keep track of the already guessed letters
         guessed_letters = []
 
         while not game_over:
-            print(HANG_STAGE[7 - GUESSES - 1])  # Print the hangman ASCII art
-            print('LETTERS YOU GUESSED SO FAR: ', guessed_letters)
+            # Prints the hangman ASCII art
+            print(HANG_STAGE[7 - GUESSES - 1])
+
+            # Prints letters guessed so far
+            print('Letters you guessed so far: ', guessed_letters)
 
             print(word_in_display)
             print()
