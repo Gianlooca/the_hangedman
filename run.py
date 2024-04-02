@@ -376,8 +376,8 @@ In any case, the word was: {word_in_game}\n"""
             print(TITLE)
             return False
         else:
-            print("Seriously? Invalid input. Please enter 'y' for yes "
-                  "or 'n' for no.")
+            print("\nSeriously? Invalid input. Please enter 'y' for yes "
+                  "or 'n' for no.\n")
 
 
 def main():
@@ -451,7 +451,7 @@ def main():
 
         # Print the hangman ASCII art after each guess
         print(HANG_STAGE[7 - GUESSES - 1])
-              
+
         # Call end_game() to handle the end-of-game logic
         play_again = end_game(
             game_over,
