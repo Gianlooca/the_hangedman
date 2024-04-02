@@ -418,42 +418,29 @@ def main():
             print(word_in_display)
             print()
 
-            # Call update_guessed_letters to handle input and printing of
-            #  guessed letters
-
-            # guessed_letter = input(f"{username}, guess a letter: \n").upper()
-
+            # This checks if the game is ended: the loop is broken and the
+            #  game_over variable becomes True if GUESSES == 0 or the word
+            # which is displayed is equal to the original randomly chosen word
             if GUESSES == 0 or word_in_display == word_in_game:
                 game_over = True
                 break
 
-            #is_valid_input = update_guessed_letters(
-                #guessed_letter,
-                #guessed_letters
-            #)
-
-            #if not is_valid_input:
-                #continue  # Skip the rest of the loop if the input is invalid
-
-            # Call update_guessed_letters to handle input and printing of
+            # Calls update_guessed_letters to handle input and printing of
             #  guessed letters
-
             guessed_letter = input(f"{username}, guess a letter: \n").upper()
             is_valid_input = update_guessed_letters(
                 guessed_letter,
                 guessed_letters
             )
 
+            # Skips the rest of the loop if the input is invalid
             if not is_valid_input:
-                continue  # Skip the rest of the loop if the input is invalid
+                continue
 
-            # Checks if the game is not ended
-
-            #if GUESSES == 0 or word_in_display == word_in_game:
-                #print('game over')
-                #game_over = True
-                #break
-
+            # In case the letter the user enters is guessed correctly, this
+            # iterates through the secret word and updates the visualization
+            # of the word_in_display by indexes; otherwise, a GUESS (a 'life')
+            # is subtracted
             if guessed_letter in word_in_game:
                 for i in range(len(word_in_game)):
                     if word_in_game[i] == guessed_letter:
