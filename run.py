@@ -376,8 +376,7 @@ In any case, the word was: {word_in_game}\n"""
             print(TITLE)
             return False
         else:
-            print("\nSeriously? Invalid input. Please enter 'y' for yes "
-                  "or 'n' for no.\n")
+            print("\nSeriously? Invalid input.\n")
 
 
 def main():
