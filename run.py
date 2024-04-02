@@ -450,8 +450,8 @@ def main():
                 GUESSES -= 1
 
         # Print the hangman ASCII art after each guess
-
-        print(HANG_STAGE[7 - GUESSES - 1])        
+        print(HANG_STAGE[7 - GUESSES - 1])
+              
         # Call end_game() to handle the end-of-game logic
         play_again = end_game(
             game_over,
