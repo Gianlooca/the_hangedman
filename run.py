@@ -382,7 +382,7 @@ In any case, the word was: {word_in_game}\n"""
 def main():
     """
     This function handles the whole game (game settings, number of GUESSES -
-    this variable is global, not local to the function scope -, etc.); it 
+    this variable is global, not local to the function scope -, etc.); it
     prints the TITLE, it runs the menu() function, contains an empty list of
     letters and, the most important thing, a while loop which basically is the
     core of the game which keeps asking the user to enter a letter and,
