@@ -299,7 +299,7 @@ def ask_user_name():
         else:
             print(
                 f"""
-This is not a concentration camp: no number or spaces allowed.
+This is not a concentration camp: no numbers or spaces allowed.
 Enter your name again.\n"""
             )
 
