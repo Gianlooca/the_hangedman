@@ -73,8 +73,11 @@ INSTRUCTIONS:
    the secret dashed word.
 4. If you guess incorrectly, you will lose a life and the poor Hangman will
    start to appear.
-5. You have 6 attempts to guess the correct word: head, torso, two arms and two
+5. The word that you have to guess can be everything: a singular name, a plural
+   name, a verb, a past participle, etc.
+6. You have 6 attempts to guess the correct word: head, torso, two arms and two
    legs.
+   
 After that, you'll become an executioner!
 
 """
