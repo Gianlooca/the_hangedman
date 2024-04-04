@@ -74,8 +74,10 @@ def menu():
 def ask_user_name():
     """
     This function asks the user to input his/her name. It doesn't accept
-    punctuation, spaces, numbers: just alphabetic letters. Then returns a
-    username variable. The function is called inside the main() function
+    punctuation, spaces, numbers: just alphabetic letters. Then returns the
+    username variable value, which (due to the capitalize() method) will 
+    always start with a capital letter. The function is called inside the 
+    main() function
     """
     while True:
         username = input("Enter your name: \n")
