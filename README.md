@@ -17,12 +17,9 @@
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
     2. [Site Owner Goals](#site-owner-goals)
-2. [User Experience](#user-experience)
-    1. [Target Audience](#target-audience)
-    2. [User Requirements and Expectations](#user-requirements-and-expectations)
-    3. [User Stories](#user-stories)
-        1. [Users](#users)
-        3. [Site Owner](#site-owner)
+2. [User Stories](#user-stories)
+    1. [Users](#users)
+    2. [Site Owner](#site-owner)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
     2. [Game Logic General Idea](#wireframes-and-game-logic-general-idea)
@@ -61,6 +58,22 @@
 - Providing a good UX/UI.
 - Providing a fully working videogame with no bugs.
 - Providing clear information about what to do in order to play.
+<br>
+<br>
+<br>
+
+## User Stories
+
+### Users 
+1. As a user, I want to know quickly what the website is about.
+2. As a user, I want to easily understand how to play.
+3. As a user, I want to see if I am doing something wrong and what to do to correct myself.
+4. As a user, I want to be able to play again easily.
+
+### Site Owner 
+1. As the site owner, I want users to understand immediately what the site is about.
+2. As the site owner, I want to avoid any possible bug to break the game.
+3. As the site owner, I want to give a special taste to a perhaps "too classic" game with some special "handmade" ASCII art.
 <br>
 <br>
 <br>
