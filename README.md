@@ -48,3 +48,19 @@
     1. [General References](#general-references)
     2. [Code](#code)
 10. [Acknowledgements](#acknowledgements)
+
+## Project Goals 
+
+### User Goals
+- Playing a classic hangman game. 
+- Finding easily the instructions about the game.
+- Receiving clear information about what's happening during a game,
+- Playing easily a new game (or exiting the program with the same ease)
+
+### Site Owner Goals
+- Providing a good UX/UI.
+- Providing a fully working videogame with no bugs.
+- Providing clear information about what to do in order to play.
+<br>
+<br>
+<br>
