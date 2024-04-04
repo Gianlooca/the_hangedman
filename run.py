@@ -185,7 +185,7 @@ def main():
     print(TITLE)
     if menu():
         word_in_game = get_acceptable_word(TEXT)
-        word_in_display = "_" * len(word_in_game)
+        word_in_display = " ".join("_" * len(word_in_game))
         game_over = False
         username = ask_user_name()
         print()
