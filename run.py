@@ -80,7 +80,7 @@ def ask_user_name():
     while True:
         username = input("Enter your name: \n")
         if username.isalpha() and not any(char.isspace() for char in username):
-            return username
+            return username.capitalize()
         else:
             print(
                 f"""
