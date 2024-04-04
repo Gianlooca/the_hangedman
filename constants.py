@@ -199,3 +199,21 @@ menu_ascii = r"""
        /|\ /|\ /|\ /|\
        / \ / \ / \ / \
     """
+
+menu_instr = f"""
+INSTRUCTIONS:
+
+1. You'll have to guess a random word letter by letter.
+2. To guess, type a letter (A LETTER) and press enter.
+3. If you guess correctly, the letter will be revealed in its exact position in
+   the secret dashed word.
+4. If you guess incorrectly, you will lose a life and the poor Hangman will
+   start to appear.
+5. The word that you have to guess can be everything: a singular name, a plural
+   name, a verb, a past participle, etc.
+6. You have 6 attempts to guess the correct word: head, torso, two arms and two
+   legs.
+   
+After that, you'll become an executioner!
+
+"""
