@@ -77,6 +77,7 @@
    legs
 6. The word that you have to guess can be everything: a singular name, a plural
    name, a verb, a past participle, etc.
+   
 *By the way, you can find all the instructions directly on the [live webpage](https://the-hangedman-9d230e2d51fc.herokuapp.com/) of this project or, if you want to have more general information about it, in the Wikipedia page about the [hangman game](https://en.wikipedia.org/wiki/Hangman_(game))*
 
 ### User Stories
