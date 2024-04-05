@@ -194,3 +194,12 @@ A design feature is, in my personal sense of the word, also the way the game log
 - If the user wants to leave the game, the following message will be displayed, along with the Title (as mentioned before):
 
 ![Exit Game Screenshot](docs/features/exit-game-hangedman.png)
+<br>
+<br>
+<br>
+
+## Game Logic Less General Idea
+
+I wanted to call this section "Game Logic Less General Idea" because here the logic of the game won't be described very specifically: a specific description may only come by putting in comparison the actual code, the docstrings describing in general what the functions are supposed to do and the comments to highlight certain steps which may not be clear enough and the following flowchart:
+
+![Less General Game Logic Flowchart](docs/flowcharts/functions-and-less-general-game-logic-hangedman.png)
