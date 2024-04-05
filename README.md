@@ -151,6 +151,6 @@ A design feature is, in my personal sense of the word, also the way the game log
 - If the user presses the letter "s/S" and then Enter, a new game starts. We will see a few screenshots from the game further on.
 
 #### Instructions
-- If the user presses the letter "i/I" and then Enter, the instructions of the hangman game will be displayed, together with some suggestions about which kind of input the terminal will accept as valid:
+- If the user presses the letter "i/I" and then Enter, the instructions of the hangman game will be displayed, together with some vague suggestions about which kind of input the terminal will accept as valid and which kind of words are potentially to be guessed. After reading the instructions, the user has to press Enter to go back to the Menu (the ASCII art won't be displayed this time):
 
 ![Instructions Screenshot](docs/features/instructions-hangedman.png)
