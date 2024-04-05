@@ -38,6 +38,7 @@
     5. [Game Over](#game-over)
         1. [Win](#win)
         2. [Lose](#lose)
+    6. [Exit Game Message](#exit-game-message)
 6. [Bugs](#Bugs)
     1. [Fixed Bugs](#fixed-bugs)
     2. [Unfixed Bugs](#unfixed-bugs)
