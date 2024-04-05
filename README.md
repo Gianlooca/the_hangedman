@@ -133,3 +133,6 @@ A design feature is, in my personal sense of the word, also the way the game log
 <br>
 <br>
 
+## Features
+
+### Title

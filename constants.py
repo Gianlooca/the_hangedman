@@ -142,8 +142,8 @@ TITLE = r"""
     _\HHH\  _\HHH\      /GGGGGGGGGGGGGGGGG/\   /NNN/_
     \ \HHH\ \ \HHH\    /\GGGGGGGGGGGGGGGG/ /  /NNN/ /
      \ \HHH\ \/HHHH\   \ \GGG\___________\/  /NNNNNNNNN\
-      \ \HHH\/H/\HHH\   \ \GGG\    /GGGGGG/ /NNN/¯¯\NNNN\
-       \ \HHHH/\ \HHH\   \ \GGG\__/GG/\__/ /NNN/ /¯¯\NNNN\
+      \ \HHH\/H/\HHH\   \ \GGG\    /GGGGGG/\/NNN/¯¯\NNNN\
+       \ \HHHH/\ \HHH\   \ \GGG\__/GG/\___\/NNN/ /¯¯\NNNN\
         \ \HHH\ \ \HHH\__ \ \GGGGGGG/ /   /NNN/ /    \NNNN\__
          \ \HHH\ \ \HHHHHH\\ \GGGGG/ /   /NNN/ /     /NNNNNNN|_
           \____\  \_______\ \/_____\/    /____/       /________|
