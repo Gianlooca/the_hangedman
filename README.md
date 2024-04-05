@@ -17,9 +17,11 @@
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
     2. [Site Owner Goals](#site-owner-goals)
-2. [User Stories](#user-stories)
-    1. [Users](#users)
-    2. [Site Owner](#site-owner)
+2. [User Experience](#user-experience)
+    1. [How To Play](#how-to-play)
+    2. [User Stories](#user-stories)
+        1. [Users](#users)
+        2. [Site Owner](#site-owner)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
     2. [Game Logic General Idea](#game-logic-general-idea)
@@ -62,15 +64,29 @@
 <br>
 <br>
 
-## User Stories
+## User Experience
 
-### Users 
+### How To Play
+1. The aim of the game is to guess a random word letter by letter;
+2. To guess, type a letter (no punctuation, spaces or numbers are allowed) and press enter;
+3. If you guess correctly, the letter will be revealed in its exact position in
+   the secret dashed word (each dash is a letter, so you can know before starting to play how many letters you have to guess)
+4. If you guess incorrectly, you will lose a "life" and the hanged man will
+   start to build.
+5. You have 6 "lives", that is 6 attempts, to guess the correct word: head, torso, two arms and two
+   legs
+6. The word that you have to guess can be everything: a singular name, a plural
+   name, a verb, a past participle, etc.
+
+### User Stories
+
+#### Users 
 1. As a user, I want to know quickly what the website is about.
 2. As a user, I want to easily understand how to play.
 3. As a user, I want to see if I am doing something wrong and what to do to correct myself.
 4. As a user, I want to be able to play again easily.
 
-### Site Owner 
+#### Site Owner 
 1. As the site owner, I want users to understand immediately what the site is about.
 2. As the site owner, I want to avoid any possible bug to break the game.
 3. As the site owner, I want to give a special taste to a perhaps "too classic" game with some special "handmade" ASCII art.
