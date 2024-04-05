@@ -35,8 +35,9 @@
         2. [Instructions](#instructions)
     3. [Ask Username](#ask-username)
     4. [Actual Game Display](#actual-game-display)
-    5. [Input Messages](#input-messages)
-    6. [Automatic Responses](#automatic-responses)
+    5. [Game Over](#game-over)
+        1. [Win](#win)
+        2. [Lose](#lose)
 6. [Bugs](#Bugs)
     1. [Fixed Bugs](#fixed-bugs)
     2. [Unfixed Bugs](#unfixed-bugs)
@@ -162,3 +163,7 @@ A design feature is, in my personal sense of the word, also the way the game log
 - To be precise, after the user presses the letter "s/S", before a new game begins, the program asks his/her name. The user then will input the name, which from then on will be displayed with the first letter capitalised (no matter if the user actually had the consideration of writing it in that way):
 
 ![Ask Username Screenshot](docs/features/ask-username-hangedman.png)
+
+- If the user tries to insert spaces, numbers or other non-alphabetic characters, the following dark humor message will try to invite him/her to follow the rules already vaguely mentioned above:
+
+![Ask Username Wrong Input Screenshot](docs/features/ask-username-wrong-hangedman.png)
