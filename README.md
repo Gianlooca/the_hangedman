@@ -148,4 +148,9 @@ A design feature is, in my personal sense of the word, also the way the game log
 ![Menu Screenshot](docs/features/menu-hangedman.png)
 
 #### Start
-- If the user presses the letter "s" and then Enter, a new game starts. We will see a few screenshots from the game further on.
+- If the user presses the letter "s/S" and then Enter, a new game starts. We will see a few screenshots from the game further on.
+
+#### Instructions
+- If the user presses the letter "i/I" and then Enter, the instructions of the hangman game will be displayed, together with some suggestions about which kind of input the terminal will accept as valid:
+
+![Instructions Screenshot](docs/features/instructions-hangedman.png)
