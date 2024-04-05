@@ -39,14 +39,15 @@
         1. [Win](#win)
         2. [Lose](#lose)
     6. [Exit Game Message](#exit-game-message)
-6. [Bugs](#Bugs)
+6. [Game Logic Less General Idea](#game-logic-less-general-idea)
+7. [Bugs](#Bugs)
     1. [Fixed Bugs](#fixed-bugs)
     2. [Unfixed Bugs](#unfixed-bugs)
-7. [Deployment](#deployment)
-8. [Credits](#credits)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
     1. [General References](#general-references)
     2. [Code](#code)
-9. [Acknowledgements](#acknowledgements)
+10. [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
 
