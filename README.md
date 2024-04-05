@@ -35,18 +35,14 @@
         2. [Instructions](#instructions)
     3. [Input Messages](#input-messages)
     4. [Automatic Responses](#automatic-responses)
-6. [Testing](#testing)
-    1. [HTML Validation](#HTML-validation)
-    2. [PEP8](#PEP8)
-    3. [Testing user stories](#testing-user-stories)
-7. [Bugs](#Bugs)
+6. [Bugs](#Bugs)
     1. [Fixed Bugs](#fixed-bugs)
     2. [Unfixed Bugs](#unfixed-bugs)
-8. [Deployment](#deployment)
-9. [Credits](#credits)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
     1. [General References](#general-references)
     2. [Code](#code)
-10. [Acknowledgements](#acknowledgements)
+9. [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
 
