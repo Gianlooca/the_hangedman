@@ -33,8 +33,9 @@
     2. [Menu](#menu)
         1. [Start](#start)
         2. [Instructions](#instructions)
-    3. [Input Messages](#input-messages)
-    4. [Automatic Responses](#automatic-responses)
+    3. [Actual Game Display](#actual-game-display)
+    4. [Input Messages](#input-messages)
+    5. [Automatic Responses](#automatic-responses)
 6. [Bugs](#Bugs)
     1. [Fixed Bugs](#fixed-bugs)
     2. [Unfixed Bugs](#unfixed-bugs)
@@ -145,3 +146,6 @@ A design feature is, in my personal sense of the word, also the way the game log
 - This feature is displayed as well automatically as soon as the user either runs the program or starts a new game. As the Title, it's an example of autographic ASCII art. We will show its general appearence (constituted by some kind of billboard, from which four sketchy men are hanging) and briefly explain its only two (self-evident, actually) functions:
 
 ![Menu Screenshot](docs/features/menu-hangedman.png)
+
+#### Start
+- If the user presses the letter "s" and then Enter, a new game starts. We will see a few screenshots from the game further on.
