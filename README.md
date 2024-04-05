@@ -164,6 +164,3 @@ A design feature is, in my personal sense of the word, also the way the game log
 
 ![Ask Username Screenshot](docs/features/ask-username-hangedman.png)
 
-- If the user tries to insert spaces, numbers or other non-alphabetic characters, the following dark humor message will try to invite him/her to follow the rules already vaguely mentioned above:
-
-![Ask Username Wrong Input Screenshot](docs/features/ask-username-wrong-hangedman.png)
