@@ -1,4 +1,4 @@
-""" Constants """ 
+""" Constants """
 
 
 HANG_STAGE = [
@@ -213,7 +213,7 @@ INSTRUCTIONS:
    name, a verb, a past participle, etc.
 6. You have 6 attempts to guess the correct word: head, torso, two arms and two
    legs.
-   
+
 After that, you'll become an executioner!
 
 """
