@@ -107,3 +107,29 @@ The terminal emulator provided by the Code Institute (and, more in general, the 
 A design feature is, in my personal sense of the word, also the way the game logic has been thought - and designed, in fact. We're all aware of the rules of the hangman game (you can find all the instructions directly on the [live webpage](https://the-hangedman-9d230e2d51fc.herokuapp.com/) of this project or in the Wikipedia page about the [hangman game](https://en.wikipedia.org/wiki/Hangman_(game))); in our chase, a flowchart describing the general game logic it's probably more descriptive (further on, in another section, we will see a similar flowchart integrating also functions and user inputs).
 
 ![General Game Logic Flowchart](docs/flowcharts/general-flowchart-hangedman.png)
+<br>
+<br>
+<br>
+
+## Technologies Used
+
+### Languages
+- HTML
+- Python
+
+### Frameworks & Tools
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [Gitpod](https://gitpod.io/)
+- [Heroku](https://www.heroku.com/)
+- [Am I Responsive?](https://ui.dev/amiresponsive)
+- [Favicon](https://favicon.io/)
+- [Snipping Tool](https://apps.microsoft.com/detail/9MZ95KL8MR0L?hl=en-US&gl=US)
+- [Paint](https://www.microsoft.com/it-it/windows/paint)
+- [Google](https://www.google.com/)
+- [W3C Markup Validation Service](https://validator.w3.org/)
+- [CI Python Linter](https://pep8ci.herokuapp.com/)
+<br>
+<br>
+<br>
+
