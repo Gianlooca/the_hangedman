@@ -203,3 +203,8 @@ A design feature is, in my personal sense of the word, also the way the game log
 I wanted to call this section "Game Logic Less General Idea" because here the logic of the game won't be described very specifically: a specific description may only come by putting in comparison the actual code, the docstrings describing in general what the functions are supposed to do and the comments to highlight certain steps which may not be clear enough and the following flowchart:
 
 ![Less General Game Logic Flowchart](docs/flowcharts/functions-and-less-general-game-logic-hangedman.png)
+
+Basically, all the game is governed by the main() function and, specifically, by a while loop inside it; all the other functions are called inside it. For a better readability, I created another Python file with all the constants which I imported at the beginning of our run.py file (together with the random and the string modules, only used before the actual game starts, that is: to "eject" punctuation, spaces or eventual numbers from our source of words and to choose a random one from this conglomerate). I tried to keep the program as neat and atomical as possible, but I am sure that it could be refactored and streamlined.
+<br>
+<br>
+<br>
