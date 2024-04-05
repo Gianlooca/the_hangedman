@@ -132,9 +132,13 @@ A design feature is, in my personal sense of the word, also the way the game log
 ## Features
 
 ### Title
-- It consists of a three levels structure, all three an example of (autographic) ASCII art:
+- This feature is displayed automatically as soon as the user runs the program, starts a new game or decides to exit the game. It consists of a three levels structure, all three an example of (autographic) ASCII art:
     1. The top levels it's some sort of acronym (not exactly an acronym) with the three letters: "h", "G" and "n" (from the far left, center and right of the word "hangman") in a bidimensional way (the "h" has its shadow pushing leftwards, the "G" towards the center and the "n" rightwards). Each letter is "coloured" with the same letter but capitalized;
     2. The actual title of the game "the hangedman", written in a more readable way;
     3. a visual logo, to let the user understand (once again, if needed) what the game is about: the drawing of gallows with an hanging man saying: "life is but a slipknot", as a motto of the game.
 
     ![Title Screenshot](docs/features/title-hangedman.png)
+<br>
+<br>
+
+### Menu
