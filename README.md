@@ -142,3 +142,6 @@ A design feature is, in my personal sense of the word, also the way the game log
 <br>
 
 ### Menu
+- This feature is displayed as well automatically as soon as the user either runs the program or starts a new game. As the Title, it's an example of autographic ASCII art. We will show its general appearence (constituted by some kind of billboard, from which four sketchy men are hanging) and briefly explain its only two (self-evident, actually) functions:
+
+![Menu Screenshot](docs/features/menu-hangedman.png)
