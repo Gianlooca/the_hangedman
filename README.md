@@ -167,5 +167,11 @@ A design feature is, in my personal sense of the word, also the way the game log
 <br>
 
 ### Actual Game Display
-- Once the game starts, as already said, the user will have to guess the right letters. Hereafter we'll just show three of screenshots from the gameplay (the empty gallows and after the first and the fourth mistake), just to have an idea of the body of the Hangedman building after missing a few "lives":
+- Once the game starts, as already said, the user will have to guess the right letters. Hereafter we'll just show three of screenshots from the gameplay (the empty gallows and after the first and the fourth mistake), just to have an idea of the body of the Hangedman building after missing a few "lives". You'll have time to see the whole game by playing it. And, as you can see, the list of the letters guessed so far, no matter if correctly or incorrectly guessed, is displayed close to the word to guess, that is to the user eyes, for a better UX:
+
+![Actual Game Display Zero Screenshot](docs/features/actual-game-display-zero-hangedman.png)
+
+![Actual Game Display One Screenshot](docs/features/actual-game-display-one-hangedman.png)
+
+![Actual Game Display Four Screenshot](docs/features/actual-game-display-four-hangedman.png)
 
