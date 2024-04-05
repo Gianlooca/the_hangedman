@@ -174,4 +174,18 @@ A design feature is, in my personal sense of the word, also the way the game log
 ![Actual Game Display One Screenshot](docs/features/actual-game-display-one-hangedman.png)
 
 ![Actual Game Display Four Screenshot](docs/features/actual-game-display-four-hangedman.png)
+<br>
+<br>
+
+### Game Over
+- The game will be over either when the user guesses correctly all the letters in the secret word (that is, by winning the game) or when the user didn't guess the word but wasted his/her 6 "lives" trying to guess (that is, by losing the game). Two different message will be displayed in either of the two cases, but in the end will be always offered to the player the chance to play another game (by inserting the letter "y/Y" and Enter), or to exit the game if he/she's just fed up of hanging bodies.
+
+#### Win
+![Win Screenshot](docs/features/game-over-win-hangedman.png)
+
+#### Lose
+![Lose Screenshot](docs/features/game-over-hangedman.png)
+<br>
+<br>
+<br>
 
