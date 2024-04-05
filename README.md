@@ -188,5 +188,8 @@ A design feature is, in my personal sense of the word, also the way the game log
 ![Lose Screenshot](docs/features/game-over-hangedman.png)
 <br>
 <br>
-<br>
 
+### Exit Game Message
+- If the user wants to leave the game, the following message will be displayed, along with the Title (as mentioned before):
+
+![Exit Game Screenshot](docs/features/exit-game-hangedman.png)
