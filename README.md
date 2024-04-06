@@ -291,4 +291,4 @@ As usual, as a guide to write a complete and detailed README.md, I stick always 
 ### Code
 
 - To solve any problem with the print of the ASCII art pieces, I have found two instructive sources: [a Stack Overflow discussion](https://stackoverflow.com/questions/23623288/print-full-ascii-art) and [this article about raw strings](https://www.digitalocean.com/community/tutorials/python-raw-string);
-- 
+- I don't even know how many tutorials about how to approach to program a hangman game I have seen; I will mention here the main ones, hoping to not forget any. [This one by Kylie Ying from freeCodeCamp](https://www.youtube.com/watch?v=cJJTnI22IF8) for sure; [this other video as well](https://youtu.be/lJ7RhvNvsnc?si=Vq9scfZM6TfeAcaa) helped a lot; I may add [this other tutorial](https://youtu.be/wmSysRui0cI?si=FIbG9KU3Z8v1ZyTb) and, in particular, the work made by this girl in three videos([here](https://youtu.be/dIFRJe2uHB4?si=gbS00daFuJpwlyUQ) we have the first, [here the second part](https://youtu.be/earqUEBeudg?si=ZHdubh_2L59kdctw), to help also to see the algorithm logic, and [here](https://youtu.be/tMJbCWHAWQ4?si=Pqet55GALcv8CciI) the third part);
