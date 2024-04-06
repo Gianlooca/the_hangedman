@@ -136,6 +136,8 @@ A design feature is, in my personal sense of the word, also the way the game log
 
 ## Features
 
+*for input validation and error checking we link to the general [TESTING.md](TESTING.md) file.*
+
 ### Title
 - This feature is displayed automatically as soon as the user runs the program, starts a new game or decides to exit the game. It consists of a three levels structure, all three an example of (autographic) ASCII art:
     1. The top levels it's some sort of acronym (not exactly an acronym) with the three letters: "h", "G" and "n" (from the far left, center and right of the word "hangman") in a bidimensional way (the "h" has its shadow pushing leftwards, the "G" towards the center and the "n" rightwards). Each letter is "coloured" with the same letter but capitalized;
