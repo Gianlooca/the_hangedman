@@ -127,6 +127,7 @@ A design feature is, in my personal sense of the word, also the way the game log
 - [Favicon](https://favicon.io/)
 - [Snipping Tool](https://apps.microsoft.com/detail/9MZ95KL8MR0L?hl=en-US&gl=US)
 - [Paint](https://www.microsoft.com/it-it/windows/paint)
+- [Lucidchart](https://www.lucidchart.com/pages/)
 - [Google](https://www.google.com/)
 - [W3C Markup Validation Service](https://validator.w3.org/)
 - [CI Python Linter](https://pep8ci.herokuapp.com/)
