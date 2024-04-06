@@ -282,8 +282,13 @@ I will mention just a few benchmarks for my general approach to Python:
 - [This italian website](https://www.programmareinpython.it/corsi-e-lezioni-python-dal-nostro-canale-youtube/) with free material and links to their YouTube videos;
 - [Real Python Tutorials](https://realpython.com/);
 - [Datacamp](https://www.datacamp.com/) in general (I subscribed to their 3 months free trial, since the GitHub Student Pack was given to me by Code Institute), their Python introductive course (which I am attending while studying here at CI) and in particular [this article](https://www.datacamp.com/tutorial/python-oop-tutorial) to understand a bit better the OOP (action which is still in progress...);
-- [This archive](https://gasei.gitbook.io/sei/intro) is also a nice resource and I've been reading a few things from it.
+- [This archive](https://gasei.gitbook.io/sei/intro) is also a nice resource and I've been reading a few things from it;
+- I stepped into [this other forum](https://discuss.python.org/) in the last days of my development phase, it would have been helpful to know it before, but it's still worth to mention here.
 
 As usual, as a guide to write a complete and detailed README.md, I stick always to the work of [Ana Runje](https://github.com/4n4ru) in her [Bodelschwinger Hof Project](https://github.com/4n4ru/CI_MS1_BodelschwingherHof), but this time I also had the example of my colleague [Ilyascan OIgun](https://github.com/ilyasolgun11) in [his README.md file for his beautiful project](https://github.com/ilyasolgun11/hangman/blob/main/docs/README.md), which helped me a lot mostly when it came about the "Deployment" section.
 <br>
 
+### Code
+
+- To solve any problem with the print of the ASCII art pieces, I have found two instructive sources: [a stack overflow discussion](https://stackoverflow.com/questions/23623288/print-full-ascii-art) and [this article about raw strings](https://www.digitalocean.com/community/tutorials/python-raw-string);
+- 
