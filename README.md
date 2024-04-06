@@ -218,4 +218,4 @@ Basically, all the game is governed by the main() function and, specifically, by
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| The ASCII arts (the seven stages, saved in strings, inside the constant HANG_STAGE) of the hangedman were returning an error and one could not visualize them correctly in the console | I had to transform those strings in raw strings *for the reference to this solution we'll put a couple links in the Credits section (inside the Code chapter)* |
+| The ASCII arts (the seven stages, saved in strings, inside the constant HANG_STAGE) of the hangedman were returning an error and one could not visualize them correctly in the console | I had to transform those strings in raw strings. *(For the reference to this solution we'll put a couple links in the Credits section - inside the Code chapter)* |
