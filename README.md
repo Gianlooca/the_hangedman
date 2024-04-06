@@ -296,4 +296,5 @@ As usual, as a guide to write a complete and detailed README.md, I stick always 
 - a general (re)view about list comprehensions, which helped me a lot, can be found [here](https://www.geeksforgeeks.org/python-list-comprehension/) and also [here](https://realpython.com/list-comprehension-python/);
 - functions in programming are a universe, and in Python as well; I tried to learn to build better ones by reading [this article](https://www.datacamp.com/tutorial/functions-python-tutorial) by Datacamp and [this other article](https://builtin.com/software-engineering-perspectives/arguments-in-python) about parameters/arguments, and I think I still need to learn a lot about their use;
 - something about a relatively easily argument like a new line [here](https://www.freecodecamp.org/news/python-new-line-and-how-to-python-print-without-a-newline/);
-- I also used in several cases the f-strings: [here](https://realpython.com/python-f-strings/) there's a quite exhaustive guide about them.
+- I also used in several cases the f-strings: [here](https://realpython.com/python-f-strings/) there's a quite exhaustive guide about them;
+- finally, we also have [this article](https://www.programmareinpython.it/video-corso-python-intermedio/03-if-name-main/) - in italian, because it has and it still is really hard for me to get precisely the concept.
