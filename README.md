@@ -290,5 +290,5 @@ As usual, as a guide to write a complete and detailed README.md, I stick always 
 
 ### Code
 
-- To solve any problem with the print of the ASCII art pieces, I have found two instructive sources: [a stack overflow discussion](https://stackoverflow.com/questions/23623288/print-full-ascii-art) and [this article about raw strings](https://www.digitalocean.com/community/tutorials/python-raw-string);
+- To solve any problem with the print of the ASCII art pieces, I have found two instructive sources: [a Stack Overflow discussion](https://stackoverflow.com/questions/23623288/print-full-ascii-art) and [this article about raw strings](https://www.digitalocean.com/community/tutorials/python-raw-string);
 - 
