@@ -225,7 +225,7 @@ Basically, all the game is governed by the main() function and, specifically, by
 | I wanted to use the update_guessed_letters() function to actually display a list of the letters guessed (correctly or incorrectly) by the user and display it only after the ASCII art of the Hangedman was printed at each round, since it was displayed even before it (hence twice, which was redundant and not user friendly) | I ousted the update_guessed_letters() function of that role and just printed the list called guessed_letters from within the main() function. |
 | I needed a bigger terminal window in order to show all the ASCII art of the hangedman and of the Title. | I changed the script inside the index.html, inside the var variable and changed the number of rows. Then, I also played within the layout.html shrinking a bit the margin of the button, in order to have more space without scrolling the page. |
 
-### Unfixed bugs
+### Unfixed Bugs
 
 - I didn't manage to make the website responsive: I tried to add media queries for screens smaller than 768 * 1024 pixels in the layout.html, defining a specific height and width in % in order to not distort the image (and using a non-fixed unit of measurement) and created an (apparently) working JavaScript function in the index.html to change the number of rows under certain conditions, but it didn't work.
 - On Google Chrome I noticed with my mentor that the underscores (which, in fact, I changed into dashes hoping for a different displaying) of the secret word weren't displayed in the deployed website. On Edge there are no problems, though, and strangely I couldn't notice the same problem on my phone (which uses Chrome as a browser).
