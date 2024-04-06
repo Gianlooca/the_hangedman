@@ -283,6 +283,7 @@ I will mention just a few benchmarks for my general approach to Python:
 - [Real Python Tutorials](https://realpython.com/);
 - [Datacamp](https://www.datacamp.com/) in general (I subscribed to their 3 months free trial, since the GitHub Student Pack was given to me by Code Institute), their Python introductive course (which I am attending while studying here at CI) and in particular [this article](https://www.datacamp.com/tutorial/python-oop-tutorial) to understand a bit better the OOP (action which is still in progress...);
 - [This archive](https://gasei.gitbook.io/sei/intro) is also a nice resource and I've been reading a few things from it.
+
 As usual, as a guide to write a complete and detailed README.md, I stick always to the work of [Ana Runje](https://github.com/4n4ru) in her [Bodelschwinger Hof Project](https://github.com/4n4ru/CI_MS1_BodelschwingherHof), but this time I also had the example of my colleague [Ilyascan OIgun](https://github.com/ilyasolgun11) in [his README.md file for his beautiful project](https://github.com/ilyasolgun11/hangman/blob/main/docs/README.md), which helped me a lot mostly when it came about the "Deployment" section.
 <br>
 
