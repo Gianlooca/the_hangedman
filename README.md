@@ -233,3 +233,38 @@ Basically, all the game is governed by the main() function and, specifically, by
 <br>
 <br>
 <br>
+
+## Deployment
+
+The project was deployed to Heroku, a platform designed to host dynamic websites where backend languages are used. I had to follow all these steps, since I was totally new to Heroku:
+
+1. Log in to Heroku.
+    - If you don't have one, as I didn't, you can create an account by clicking on the purple "Sign up for free button" in the homepage, then fill up the form (selecting also your primary development language, in this case Python) and click on "Create free account". Heroku will send a confirmation email, so you'll need to open it and click on the provided link. Once done that, you'll be redirected on another page to create your password; when you're happy with that, you can click “Set password and log in”. We finally have a welcome message and we'll need to the only button we'll see in that page to proceed. We'll need to accept the terms of service of Heroku by clicking, once again, on the only "accept" button we'll see in that page. We'll finally be in our dashboard.
+2. If you're a student of the Code Institute (or of another school giving some kind of discount to use Heroku) you'll need to activate your GitHub Student Developer Pack. Then, you'll need to:
+    1. Navigate to https://www.heroku.com/github-students;
+    2. Click “Get the student offer”;
+    3. Login with Heroku;
+    4. Click “Verify with GitHub”;
+    5. Click “Authorize Heroku”;
+    6. In order to receive the Heroku credits, payment details are required. If you have already supplied details, continue by clicking “Verify my billing information” and skip to step 7. If, however, you have not provided any details, click “Add a credit or debit card to your account now”;
+    7. In the new tab, click “Add credit card”. Note that this doesn’t have to be a credit card, a debit card will work just as well (even if for me a debit card didn't work);
+    8. Enter your payment details as requested and then head back to the Heroku sign up process (you may need to refresh the page for Step 2 to validate). If you closed the tab, [open it up again here](https://www.heroku.com/auth/login);
+    9. Enter your details, ensuring to put “Code Institute” as your School name, heed the warning and then click “Send”;
+    10. Read Heroku’s terms and click “Agree” to continue;
+    11. A thank you message will be shown, indicating that it can take up to 24 hours for the request to be processed;
+    12. When the confirmation email comes through from Heroku, you can check your credits via https://dashboard.heroku.com/account/billing. Here you should find that $156.00 of credits have been applied to your Platform Credits. It can take a while for the dashboard to update, so please wait the full 24 hours before contacting Heroku support in the event of any errors. If you don't get your Heroku credits within 24 hours. Raise a ticket with Heroku [here](https://www.heroku.com/support) and they can fix that for you.
+3. On the dashboard, click the “Create new app” (app stands for "web application") purple button. Click instead on the "new" white button on the top right and select "create new app", if you already have at least one app created;
+4. Enter the app name. I named mine ultimate-hangman (this has to be unique, so you may use a bit of your time here in order to find the appropriate name);
+5. Once Heroku accepts the app name select your region;
+6. Click the purple "Create app" button;.
+7. This will bring you to a page with all the information for setting up  your app. On the top left of the page you'll see several voices: first of all, navigate to the "Settings" tab and scroll down to the "Config Vars" (also known as "Environment Variables") section.
+8. Click the button labeled "Reveal Config Vars", then enter the key as Port, the value as 8000 and click the purple "Add" button. If you have sensitive data to store that needs to be kept secret and which, consequently, aren't stored into the GitHub repository, you can add another Config Var.
+9. Scroll down to the Buildpacks section of the Settings page, click the button labeled "Add buildpack", select Python, and click on "Save";
+10. Repeat step 10 but this time add Node.js instead of Python. (Remember to keep the buildpacks in the correct order, Python first and Node.js second. If they're the other way around you  can click and drag them to change the order.);
+11. Scroll back to the top of the Settings page, and navigate to the Deploy tab.
+12. From the deploy tab select Github as the deployment method.
+13. Confirm you want to connect to GitHub.
+14. Search for the repository name; write the correct name, click on the purple "Search" and then click the on the white "Connect" button below next to the intended repository.
+15. From the bottom of the deploy page select your preferred deployment type by following one of the steps below:
+    1. Clicking either "Enable Automatic Deploys" for automatic deployment when you push updates to GitHub (which I haven't chosen, but it's much more practical)
+    2. Or you can choose the Manual Deploy using the Deploy Branch option. If you choose this, you have to deploy every time (it's not automatically connected to GitHub); after each process, you can click on the "View" button in order to open and check your deployed website version.
