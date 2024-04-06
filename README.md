@@ -116,6 +116,7 @@ A design feature is, in my personal sense of the word, also the way the game log
 
 ### Languages
 - HTML
+- Javascript
 - Python
 
 ### Frameworks & Tools
@@ -268,3 +269,9 @@ The project was deployed to Heroku, a platform designed to host dynamic websites
 15. From the bottom of the deploy page select your preferred deployment type by following one of the steps below:
     1. Clicking either "Enable Automatic Deploys" for automatic deployment when you push updates to GitHub (which I haven't chosen, but it's much more practical)
     2. Or you can choose the Manual Deploy using the Deploy Branch option. If you choose this, you have to deploy every time (it's not automatically connected to GitHub); after each process, you can click on the "View" button in order to open and check your deployed website version.
+<br>
+<br>
+<br>
+
+## Credits
+
