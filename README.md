@@ -224,3 +224,12 @@ Basically, all the game is governed by the main() function and, specifically, by
 | Once refactored the main() function, since I added and created an end_game() function, after having ended one game it gave me an IndexError related to the GUESSES constant, or rather to how I was using it to index the HANG_STAGE list. | I sorted this out by adding the code block "GUESSES = len(HANG_STAGE)": this Resets the constant GUESSES at the beginning of each game, so the constant won't go below zero after the first defeat and it's refreshed at any new game. |
 | I wanted to use the update_guessed_letters() function to actually display a list of the letters guessed (correctly or incorrectly) by the user and display it only after the ASCII art of the Hangedman was printed at each round, since it was displayed even before it (hence twice, which was redundant and not user friendly) | I ousted the update_guessed_letters() function of that role and just printed the list called guessed_letters from within the main() function. |
 | I needed a bigger terminal window in order to show all the ASCII art of the hangedman and of the Title. | I changed the script inside the index.html, inside the var variable and changed the number of rows. Then, I also played within the layout.html shrinking a bit the margin of the button, in order to have more space without scrolling the page. |
+
+### Unfixed bugs
+
+- I didn't manage to make the website responsive: I tried to add media queries for screens smaller than 768 * 1024 pixels in the layout.html, defining a specific height and width in % in order to not distort the image (and using a non-fixed unit of measurement) and created an (apparently) working JavaScript function in the index.html to change the number of rows under certain conditions, but it didn't work.
+- On Google Chrome I noticed with my mentor that the underscores (which, in fact, I changed into dashes hoping for a different displaying) of the secret word weren't displayed in the deployed website. On Edge there are no problems, though, and strangely I couldn't notice the same problem on my phone (which uses Chrome as a browser).
+- I couldn't insert spaces after each letter in the word to guess. That's definitely an aim for a future implementation of the game.
+<br>
+<br>
+<br>
