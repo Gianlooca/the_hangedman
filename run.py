@@ -22,13 +22,13 @@ def get_acceptable_word(TEXT):
 
     first_list = text.split()
 
-    # This list comprehension removes the duplicates from our original
-    # list and the words words smaller than 4 characters, then transform
-    # the remaining ones in uppercase
+    # This list comprehension transforms each word in uppercas, then
+    #  removes the duplicates from our original list and the words words
+    # smaller than 4 characters. 
 
     final_list = [
-        i.upper() for n, i in enumerate(first_list)
-        if i not in first_list[:n] and len(i) >= 4
+    word.upper() for ind, word in enumerate(first_list)
+    if word not in first_list[:ind] and len(word) >= 4
     ]
 
     # This chooses and returns a random word from the list of words
