@@ -55,7 +55,6 @@ def menu():
             "Press S and ENTER to start a new game\n"
             "Press I and ENTER for instructions.\n"
         ).upper()
-        print(end="\n")
 
         # If the user enters "s/S" starts a new game; if "i/I", instructions
         # are displayed; any other character will print the "else" message
