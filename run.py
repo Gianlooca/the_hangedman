@@ -63,7 +63,7 @@ def menu():
             return True
         elif user_input == "I":
             print(menu_instr)
-            input("Press ENTER to go back to the menu\n")
+            input("Press ENTER (or any key and ENTER) to go back to the menu\n")
         else:
             print(
                 "Remember: S to start a new game, I for instruction."
