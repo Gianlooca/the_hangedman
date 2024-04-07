@@ -91,7 +91,7 @@ I constantly tested manually the general performance of the program, both on the
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Title | Have a look the title and the ASCII arts | Notice that this is a classic hangman game | Works as expected |
+| Title | Have a look at the title and the ASCII arts | Notice that this is a classic hangman game | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/features/title-hangedman.png">
@@ -123,6 +123,19 @@ I constantly tested manually the general performance of the program, both on the
 <img src="docs/inputs-testing/new-game-input-hangedman.png">
 
 *These are just a couple of examples, but we know that during all the gameplay if you do something wrong you'll be constantly corrected by the computer until you'll input something considered correct.*
+</details>
+<br>
+<br>
+
+4. As a user, I want to be able to play again easily.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Game Over display messages | Have a look at the final message after the Game Over (in both cases of defeat or victory) | Notice that you can just enter "y/Y" to play again or "n/N" to exit the game | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/features/game-over-win-hangedman.png">
+<img src="docs/features/game-over-hangedman.png">
 </details>
 <br>
 <br>
