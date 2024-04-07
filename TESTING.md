@@ -175,6 +175,7 @@ I constantly tested manually the general performance of the program, both on the
 <img src="docs/features/title-hangedman.png">
 <img src="docs/features/actual-game-display-zero-hangedman.png">
 <img src="docs/features/actual-game-display-one-hangedman.png">
+<img src="docs/features/actual-game-display-four-hangedman.png">
 </details>
 <br>
 <br>
