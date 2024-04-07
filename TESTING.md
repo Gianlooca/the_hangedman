@@ -183,6 +183,16 @@ I constantly tested manually the general performance of the program, both on the
 
 ## Validation
 
+### PEP8 Code Institute Python Linter
+The [CI Python Linter](https://pep8ci.herokuapp.com/) has been used to test both the run.py and the constants.py modules of this program, showing no errors. Below we'll have the screenshots which testify the fact:
+
+<details><summary>Screenshots</summary>
+<img src="docs/validation/code-institute-python-linter-run.jpeg">
+<img src="docs/validation/code-institute-python-linter-constants.jpeg">
+</details>
+<br>
+
+
 ### HTML Validation
 The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of the website, since I add adjustments to both pages - index.html and layout.html - (such as meta tags, the title of the page, a favicon, the number of rows and the margins of the "run program" button). The page has been validated (both by URI and text input) with no errors and no warnings to show.<br>
 *Afterwards, we'll show just the link of URI validations.*
