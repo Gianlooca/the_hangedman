@@ -97,3 +97,17 @@ I constantly tested manually the general performance of the program, both on the
 <img src="docs/features/title-hangedman.png">
 </details>
 <br>
+<br>
+
+2. As a user, I want to easily understand how to play.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Instructions | Go inside the Menu and enter "i/I" to read the instructions | Learn the rules of our hangman game | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/features/menu-hangedman.png">
+<img src="docs/features/instructions-hangedman.png">
+</details>
+<br>
+<br>
