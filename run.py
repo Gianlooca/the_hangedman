@@ -24,11 +24,11 @@ def get_acceptable_word(TEXT):
 
     # This list comprehension transforms each word in uppercas, then
     #  removes the duplicates from our original list and the words words
-    # smaller than 4 characters. 
+    # smaller than 4 characters.
 
     final_list = [
-    word.upper() for ind, word in enumerate(first_list)
-    if word not in first_list[:ind] and len(word) >= 4
+     word.upper() for ind, word in enumerate(first_list)
+     if word not in first_list[:ind] and len(word) >= 4
     ]
 
     # This chooses and returns a random word from the list of words
@@ -63,7 +63,8 @@ def menu():
             return True
         elif user_input == "I":
             print(menu_instr)
-            input("Press ENTER (or any key and ENTER) to go back to the menu\n")
+            input("Press ENTER (or any key and ENTER) to go back"
+                  " to the menu\n")
         else:
             print(
                 "Remember: S to start a new game, I for instruction."
