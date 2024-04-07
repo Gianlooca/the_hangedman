@@ -5,6 +5,8 @@
 1. [Manual testing](#manual-testing)
     1. [Inputs Testing](#inputs-testing)
     2. [Testing User Stories](#testing-user-stories)
+        1. [Users](#users)
+        2. [Site Owner](#site-owner)
 2. [Validation](#validation)
     1. [PEP8 Code Institute Python Linter](#pep8-code-institute-python-linter)
     2. [HTML Validation](#HTML-validation)
@@ -85,7 +87,7 @@ I constantly tested manually the general performance of the program, both on the
 
 ### Testing User Stories
 
-**Users**
+#### Users
 
 1. As a user, I want to know quickly what the website is about.
 
@@ -140,7 +142,7 @@ I constantly tested manually the general performance of the program, both on the
 <br>
 <br>
 
-**Site Owner**
+#### Site Owner
 
 1. As the site owner, I want users to understand immediately what the site is about.
 
