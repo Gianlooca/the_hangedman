@@ -19,3 +19,7 @@ I constantly tested manually the general performance of the program, both on the
 1. The first input we're going to test is the main one within the menu() function. As it can be seen from the following screenshot, no matter how many several inputs you try to give (spaces, spaces and other characters, number, punctuation), the program demands only "s/S" or "i/I" in order to give the expected results:
 
 ![First Menu Input](docs/user-stories-testing/menu-input-hangedman.png)
+
+2. The second input we *should* test is contained as well within the menu() function; as we have read, by inserting "s/S" when required we start a new game, but if we insert "i/I" the game rules are displayed. After that, I could have required to insert a specific key only in order to get back to the main menu: but why? The point here is to play the game. There's no reason to hinder the user to go back to the main menu; hence, the message (and the related game logic): "Press ENTER (or any key and ENTER) to go back to the menu".
+
+![Second Menu Input](docs/user-stories-testing/second-menu-input-hangedman.png)
