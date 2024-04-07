@@ -180,3 +180,13 @@ I constantly tested manually the general performance of the program, both on the
 <br>
 <br>
 <br>
+
+## Validation
+
+### HTML Validation
+The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of the website, since I add adjustments to both pages - index.html and layout.html - (such as meta tags, the title of the page, a favicon, the number of rows and the margins of the "run program" button). The page has been validated (both by URI and text input) with no errors and no warnings to show.<br>
+*Afterwards, we'll show just the link of URI validations.*
+
+[Homepage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthe-hangedman-9d230e2d51fc.herokuapp.com%2F)
+<br>
+
