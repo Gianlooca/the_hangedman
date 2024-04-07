@@ -139,3 +139,41 @@ I constantly tested manually the general performance of the program, both on the
 </details>
 <br>
 <br>
+
+**Site Owner**
+
+1. As the site owner, I want users to understand immediately what the site is about.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Title | Have a look at the title and the ASCII arts | Notice that this is a classic hangman game | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/features/title-hangedman.png">
+</details>
+<br>
+<br>
+
+2. As the site owner, I want to avoid any possible bug to break the game.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| A decent code | Write a decent code | No bugs or exceptions | In this case, works as expected |
+
+<br>
+<br>
+
+3. As the site owner, I want to give a special taste to a perhaps "too classic" game with some special "handmade" ASCII art.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Title, Actual Game Display | Have a look at the title and the ASCII arts of the building hangman during the game | Enjoy the personal style of the developer | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/features/title-hangedman.png">
+<img src="docs/features/actual-game-display-zero-hangedman.png">
+<img src="docs/features/actual-game-display-one-hangedman.png">
+</details>
+<br>
+<br>
+<br>
