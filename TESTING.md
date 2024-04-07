@@ -16,3 +16,6 @@ I constantly tested manually the general performance of the program, both on the
 
 ### Inputs Testing
 
+1. The first input we're going to test is the main one within the menu() function. As it can be seen from the following screenshot, no matter how many several inputs you try to give (spaces, spaces and other characters, number, punctuation), the program demands only "s/S" or "i/I" in order to give the expected results:
+
+![First Menu Input](docs/user-stories-testing/menu-input-hangedman.png)
