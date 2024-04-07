@@ -111,3 +111,18 @@ I constantly tested manually the general performance of the program, both on the
 </details>
 <br>
 <br>
+
+3. As a user, I want to see if I am doing something wrong and what to do to correct myself.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Invalid Input Messages | Do exactly the opposite of what the automatic messages tell you to do and you'll get a corrective response | Learn what to input | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/inputs-testing/ask-username-input-hangedman.png">
+<img src="docs/inputs-testing/new-game-input-hangedman.png">
+
+*These are just a couple of examples, but we know that during all the gameplay if you do something wrong you'll be constantly corrected by the computer until you'll input something considered correct.*
+</details>
+<br>
+<br>
