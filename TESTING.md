@@ -200,3 +200,22 @@ The [W3C Markup Validation Service](https://validator.w3.org/) was used to valid
 [Homepage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthe-hangedman-9d230e2d51fc.herokuapp.com%2F)
 <br>
 
+### Browser compatibility
+The website was tested on the following browsers:
+- Google Chrome;
+- Mozilla Firefox;
+- Safari;
+- Microsoft Egde.
+On my mentor's computer, though, as I already said, a strange bug happened twice: when she had to guess the word, she couldn't see the dashes representing the letters of the secret word; she was using Chrome. That's a pretty big problem, obviously. But I tested the game on other devices using the same browser without any problem, so I think it was some issue related to her system.
+<br>
+<br>
+
+### Performing tests on various devices 
+The website was tested on the following devices:
+- HP Laptop 15s-eq0xxx;
+- Oppo A52;
+- iPhone 13 Pro;
+- iPhone 14 Pro
+- Realme RMX3630;
+- Realme 11 Pro;
+- Redmi Note 11 Pro;
