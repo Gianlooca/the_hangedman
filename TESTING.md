@@ -39,31 +39,37 @@ I constantly tested manually the general performance of the program, both on the
 5. Now the actual game starts: once again, we're not allowed to use numbers, spaces, punctuation or any combination of these, as we'll see in the following screenshots:
 
 ![Dash Game Input](docs/inputs-testing/dash-game-input-hangedman.png)
+
 *Here we try to input a dash: it doesn't work.*
 <br>
 <br>
 
 ![Number Game Input](docs/inputs-testing/number-game-input-hangedman.png)
+
 *Here we try to input a number: it doesn't work either.*
 <br>
 <br>
 
 ![Spaces Punctuation Game Input](docs/inputs-testing/spaces-and-punctuation-game-input-hangedman.png)
+
 *Here we try with spaces and a combo of dots and commas.*
 <br>
 <br>
 
 ![Spaces Letter Game Input](docs/inputs-testing/spaces-and-letter-game-input-hangedman.png)
+
 *Here we try with a space and a letter: still nothing.*
 <br>
 <br>
 
 ![Word Game Input](docs/inputs-testing/letters-game-input-hangedman.png)
+
 *We try to insert a bunch of letters: it doesn't work.*
 <br>
 <br>
 
 ![Mix Game Input](docs/inputs-testing/mix-game-input-hangedman.png)
+
 *Here we finally try to enter a salad of stuff: the program doesn't accept this input.*
 <br>
 <br>
