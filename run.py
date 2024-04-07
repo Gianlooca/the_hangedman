@@ -79,7 +79,7 @@ def ask_user_name():
     main() function
     """
     while True:
-        username = input("Enter your name: \n")
+        username = input("\nEnter your name: \n")
         if username.isalpha() and not any(char.isspace() for char in username):
             return username.capitalize()
         else:
