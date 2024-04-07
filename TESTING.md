@@ -73,3 +73,13 @@ I constantly tested manually the general performance of the program, both on the
 *Here we finally try to enter a salad of stuff: the program doesn't accept this input.*
 <br>
 <br>
+
+6. The final input the program asks us to insert is the "y/Y" or "n/N" depending on our will to play a new game or not. Once again, there's no escaping:
+
+![New Game Input](docs/inputs-testing/new-game-input-hangedman.png)
+
+*After a miserable fail, we're asked if we want to play again: all the inputs given, since are not "y/Y" or "n/N", are refused.*
+<br>
+<br>
+<br>
+
