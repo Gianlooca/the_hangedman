@@ -83,3 +83,17 @@ I constantly tested manually the general performance of the program, both on the
 <br>
 <br>
 
+### Testing User Stories
+
+**Users**
+
+1. As a user, I want to know quickly what the website is about.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Title | Have a look the title and the ASCII arts | Notice that this is a classic hangman game | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/features/title-hangedman.png">
+</details>
+<br>
