@@ -310,4 +310,3 @@ I would like to thank:
 - my peers:
     1. [Ilyascan Olgun](https://github.com/ilyasolgun11), whose [README.md file](https://github.com/ilyasolgun11/hangman/blob/main/docs/README.md) for the PP3, as already specified above, showed me the way to describe the deployment phase. He also gave me some tips about how to add rows to the CI terminal emulator;
     2. [Lino Bollansee](https://github.com/linobollansee) for a pretty detailed peer review of my project while still was in the middle of its development. He helped me even without me having asked for that, and I appreciate this kind of altruism.
--
