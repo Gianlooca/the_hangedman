@@ -218,6 +218,4 @@ The website was tested on the following devices:
 - Oppo A52;
 - iPhone 13 Pro;
 - iPhone 14 Pro
-- Realme RMX3630;
-- Realme 11 Pro;
-- Redmi Note 11 Pro;
+- Realme RMX3630.
