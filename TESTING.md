@@ -199,6 +199,7 @@ The [W3C Markup Validation Service](https://validator.w3.org/) was used to valid
 
 [Homepage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthe-hangedman-9d230e2d51fc.herokuapp.com%2F)
 <br>
+<br>
 
 ### Browser compatibility
 The website was tested on the following browsers:
