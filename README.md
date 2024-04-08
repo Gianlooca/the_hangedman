@@ -305,7 +305,7 @@ As usual, as a guide to write a complete and detailed README.md, I stick always 
 ## Acknowledgements
 
 I would like to thank:
-- my mentor [Juliia Konn](https://www.linkedin.com/in/iuliia-konovalova-27948020b/) because as usual she helped me a lot by showing me best practices, how things "must be done" - while leaving me free, at the same time, to proceed as I preferred -, little tricks and general coding suggestions;
+- my mentor [Juliia Konn](https://www.linkedin.com/in/iuliia-konovalova-27948020b/) because as usual she helped me a lot by showing me best practices, how things "must be done" - while leaving me free, at the same time, to proceed as I preferred -, little tricks (among the others, for example, she explained me how to modify the settings.json file in order to show in my workspace a vertical line on the 80 characters, just to remind one of the most important PEP8 rules and organize the code according to it) and general coding suggestions;
 - Code Institute tutors - with a specific honorable mention to [Rebecca, the tutor queen](https://github.com/rebeccatraceyt), Sarah and Roman - who helped me even more than expected or due;
 - my peers:
     1. [Ilyascan Olgun](https://github.com/ilyasolgun11), whose [README.md file](https://github.com/ilyasolgun11/hangman/blob/main/docs/README.md) for the PP3, as already specified above, showed me the way to describe the deployment phase. He also gave me some tips about how to add rows to the CI terminal emulator;
