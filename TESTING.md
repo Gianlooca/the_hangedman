@@ -207,6 +207,7 @@ The website was tested on the following browsers:
 - Mozilla Firefox;
 - Safari;
 - Microsoft Egde.
+
 On my mentor's computer, though, as I already said, a strange bug happened twice: when she had to guess the word, she couldn't see the dashes representing the letters of the secret word; she was using Chrome. That's a pretty big problem, obviously. But I tested the game on other devices using the same browser without any problem, so I think it was some issue related to her system.
 <br>
 <br>
