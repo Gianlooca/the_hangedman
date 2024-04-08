@@ -298,3 +298,16 @@ As usual, as a guide to write a complete and detailed README.md, I stick always 
 - something about a relatively easily argument like a new line [here](https://www.freecodecamp.org/news/python-new-line-and-how-to-python-print-without-a-newline/);
 - I also used in several cases the f-strings: [here](https://realpython.com/python-f-strings/) there's a quite exhaustive guide about them;
 - finally, we also have [this article](https://www.programmareinpython.it/video-corso-python-intermedio/03-if-name-main/) - in italian, because it has and it still is really hard for me to get precisely the concept.
+<br>
+<br>
+<br>
+
+## Acknowledgements
+
+I would like to thank:
+- my mentor [Juliia Konn](https://www.linkedin.com/in/iuliia-konovalova-27948020b/) because as usual she helped me a lot by showing me best practices, how things "must be done" - while leaving me free, at the same time, to proceed as I preferred -, little tricks and general coding suggestions;
+- Code Institute tutors - with a specific honorable mention to [Rebecca, the tutor queen](https://github.com/rebeccatraceyt), Sarah and Roman - who helped me even more than expected or due;
+- my peers:
+    1. [Ilyascan Olgun](https://github.com/ilyasolgun11), whose [README.md file](https://github.com/ilyasolgun11/hangman/blob/main/docs/README.md) for the PP3, as already specified above, showed me the way to describe the deployment phase. He also gave me some tips about how to add rows to the CI terminal emulator;
+    2. [Lino Bollansee](https://github.com/linobollansee) for a pretty detailed peer review of my project while still was in the middle of its development. He helped me even without me having asked for that, and I appreciate this kind of altruism.
+-
